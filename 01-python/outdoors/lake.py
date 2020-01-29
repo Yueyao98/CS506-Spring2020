@@ -1,3 +1,8 @@
-def draw_lake():
-    print("lake not found")
+def draw_lake(length,width):
+    length = 20
+    width = 20
+    for i in range(length):
+    	for j in range(width):
+    		print("~", end = " ")
+    	print ()
     return
